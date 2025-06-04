@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primarnizelena: #74C69D;
+    --font-fonth2: Work Sans,sans-serif;
+    --font-fonth1: Crimson Text,serif;
+    --color-cernapruhledna: #212529;
+}
+.h1 {
+    @apply font-serif font-bold mb-4 leading-tight;
+    color: var(--color-black);
+    font-family: var(--font-fonth1);
+    font-size: 24px;
+}
+.jmeno {
+    @apply font-serif font-bold mb-4 leading-tight ml-[38px];
+    color: var(--color-black);
+    font-family: var(--font-fonth1);
+    font-size: 24px;
+    text-align: left
+    
+}
+
+.h2 {
+    @apply font-serif font-bold mb-4 leading-tight;
+    color: var(--color-primarnizelena);
+    font-family: var(--font-fonth2);
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.funkce{
+    @apply font-serif font-bold mb-4 leading-tight ml-[38px];
+    color: var(--color-cernapruhledna);
+    opacity: 0.75;
+    font-family:var(--font-fonth2);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: left
+    
+}
+
+
+.textpruhledny {
+    @apply text-left;
+    font-family: var(--font-fonth2);
+    font-size: 15px;
+    opacity: 0.5;
+    color: #212529;
+}
+
+.buttonstyle {
+    @apply bg-black text-white px-4  py-2 rounded text-sm mt-5 ml-0 self-start;
+    font-family: var(--font-fonth2);
+    font-size: 20px;
+    width: 170px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; 
+}
